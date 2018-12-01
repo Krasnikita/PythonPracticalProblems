@@ -27,5 +27,5 @@ with open('storage.txt', 'a') as file:
     min = int(input('Введите число ОТ: '))
     max = int(input('Введите число ДО: '))
     func (a,min,max)
-    print (a)
+    print ("Случайные числа: ", a)
     file.write ('Исходные данные: ' + str(min) + ' | ' + str(max) + '\n' + 'Результат операции:' + str(a) + '\n')
