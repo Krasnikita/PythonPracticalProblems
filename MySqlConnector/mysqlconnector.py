@@ -4,8 +4,8 @@ cnx = mysql.connector.connect(user='root', password='se_pHANTOM0708', host='127.
 try:
    cursor = cnx.cursor()
    #тут пишем запрос
-   cursor.execute('SELECT * from city;')
-   result = cursor.fetchall()
-   print (result)
+   cursor.execute('INSERT INTO users (id, firstname) VALUES (1, "Никитос")')
+#   result = cursor.fetchall()
+#   print (result)
 finally:
     cnx.close()

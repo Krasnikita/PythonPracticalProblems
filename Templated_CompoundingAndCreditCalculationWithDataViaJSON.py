@@ -1,5 +1,5 @@
 import json 
-import pyodbc
+#import pyodbc
 
 InputData = input(str('Ожидаю json на вход: '))
 StoredData = json.loads(InputData)
