@@ -1,0 +1,2 @@
+from ConfigParserModule import read_db_config
+read_db_config()
